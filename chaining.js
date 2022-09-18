@@ -24,6 +24,5 @@ const company = {
     web: { work: 'website development', employee: 22, framework: 'React', tech: { design: 'css', backend: 'node.js' } },
     location: 'Dhaka'
 };
-
 console.log(company?.web?.tech?.backend);
 console.log(company?.worng?.tech.backend);
