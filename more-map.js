@@ -25,3 +25,4 @@ const productsName = products.map(product => product.name);
 console.log(productsName);
 //! foreach
 products.forEach(product => console.log(product));
+
