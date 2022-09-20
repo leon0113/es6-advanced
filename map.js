@@ -4,7 +4,7 @@ const output = [];
 // const doubleOld(number){
 //     return number * 2;
 // }
-// type 1
+//? type 1
 const doubleIt = num => num * 2;
 
 for (const number of numbers) {
@@ -17,7 +17,7 @@ for (const number of numbers) {
 const output2 = numbers.map(doubleIt);
 console.log(output2)
 
-// type 3
+//? type 3
 
 const output3 = numbers.map(num => num * 3);
 console.log(output3);
