@@ -1,6 +1,6 @@
 class TeamMember {
     name;
-    role = 'Support web dev';
+
     address = 'BD';
     constructor(name, address) {
         this.name = name;
@@ -10,6 +10,7 @@ class TeamMember {
 
 class Suppot extends TeamMember {
     groupSupportTime;
+    role = 'Support web dev';
     constructor(name, adress, time) {
         super(name, adress);
         this.groupSupportTime = time;
@@ -20,7 +21,7 @@ class Suppot extends TeamMember {
 }
 
 class StudentCare extends TeamMember {
-
+    role = 'care web dev';
     buildARoutine(student) {
         console.log(this.name, 'build a routine for', student);
     }
@@ -28,6 +29,7 @@ class StudentCare extends TeamMember {
 
 class NeptuneApp extends TeamMember {
     codeEditor;
+    role = 'app dev';
     constructor(name, address, editor) {
         super(name, address);
         this.codeEditor = editor;
